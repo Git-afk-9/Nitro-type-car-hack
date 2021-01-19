@@ -10,11 +10,11 @@
     'use strict';
     setInterval(function(){
         var a = JSON.parse(localStorage["persist:nt"]);
-        var b = JSON.parse(a.user);
+        var b = JSON.parse(a.Smooth-criminal);
         b.membership = "gold";
         b.title = "The Bug";
-        b.money = b.money + 100000;
-        a.user = JSON.stringify(b);
+        b.money = b.money + 1000000000;
+        a.Smooth-criminal = JSON.stringify(b);
         localStorage["persist:nt"] = JSON.stringify(a);
      }, 8000);
 })();
